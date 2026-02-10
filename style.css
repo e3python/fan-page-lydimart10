@@ -15,12 +15,14 @@ img:hover{
 
 img[alt="oxfordyear"]{
     width: 100px;
-    height: auto;
-    float: left;
-    margin-right: 30px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 20px auto;
     border-radius: 10px;
      border: 2px solid black;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(210, 97, 97, 0.2);
+    transition: transform 0.3s ease;
+    object-fit: cover;
 }
 
 
